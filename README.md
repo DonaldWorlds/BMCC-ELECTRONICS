@@ -1,7 +1,3 @@
-Here's a sample README for your Express.js application that incorporates the details you provided:
-
----
-
 # BMCC ELECTRONICS
 
 This is a simple e-commerce web application built using Node.js, Express, and MongoDB. It provides user registration, login functionality, and a shopping cart for managing products.
@@ -94,8 +90,5 @@ This is a simple e-commerce web application built using Node.js, Express, and Mo
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Donald Witherspoon
 
----
-
-Feel free to customize this README to better fit your specific needs and any additional features or details you would like to include!
