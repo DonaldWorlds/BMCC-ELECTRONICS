@@ -30,6 +30,7 @@ This is a simple e-commerce web application built using Node.js, Express, and Mo
 - Update item quantities in the cart.
 - Delete items from the cart.
 - Display total cost of items in the cart.
+- Logout functionality to end user sessions.
 - Responsive layout with EJS templating.
 
 ## Setup
@@ -66,6 +67,7 @@ This is a simple e-commerce web application built using Node.js, Express, and Mo
 - **About Page**: Navigate to `/about` for information about the application.
 - **Product Page**: Navigate to `/products` to view and add products to your cart.
 - **Cart Page**: Navigate to `/cart` to view items in your cart and proceed to checkout.
+- **Logout**: Navigate to `/logout` to log out of your account.
 
 ## Routes
 
@@ -81,6 +83,7 @@ This is a simple e-commerce web application built using Node.js, Express, and Mo
 | `/cart`              | GET    | Displays the cart with added items.             |
 | `/change`            | POST   | Updates the quantity of an item in the cart.    |
 | `/delete:code`      | GET    | Deletes an item from the cart based on its code. |
+| `/logout`            | GET    | Logs the user out of the application.           |
 
 ## Database Models
 
@@ -90,5 +93,4 @@ This is a simple e-commerce web application built using Node.js, Express, and Mo
 
 ## License
 
-This project is licensed under the Donald Witherspoon
-
+This project is licensed under Donald Witherspoon @2024
